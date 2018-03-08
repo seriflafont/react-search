@@ -1,0 +1,17 @@
+.search-panel-wrapper.loading{
+    background:#999;
+}
+.search-row{
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.search-row.top-line{
+    justify-content: flex-end;
+}
+.search-input label{
+    display: block;
+    margin-bottom:10px;
+    font-weight: bold;
+}

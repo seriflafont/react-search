@@ -1,0 +1,45 @@
+.search-results-list-item{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+}
+.search-results-list-item span{
+    word-wrap: break-word;
+    padding-right:1%;
+    word-break:break-word;
+}
+.search-results-list-item.header{
+    font-weight: bold;
+}
+.search-results-list-item .referral-name{
+    width:15%;
+}
+.search-results-list-item .email{
+    width:15%;
+}
+.search-results-list-item .submit-date{
+    width:10%;
+}
+.search-results-list-item .country{
+    width:7%;
+}
+.search-results-list-item .domain{
+    width:8%;
+}
+.search-results-list-item .promo{
+    width:5%;
+}
+.search-results-list-item .submitter-name{
+    width:10%;
+}
+.search-results-list-item .submitter-email{
+    width:15%;
+}
+.search-results-list-item .status{
+    width:10%;
+}
+.search-results-list-item .link{
+    width:5%;
+    font-weight: bold;
+    text-transform:uppercase;
+}

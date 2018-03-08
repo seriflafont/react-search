@@ -1,0 +1,16 @@
+button.search-results-pagination{
+    border:1px solid black;
+    padding:6px 10px;
+    cursor: pointer;
+}
+
+button.search-results-pagination.selected{
+    background:#777;
+}
+button.search-results-pagination.selected:hover{
+    background:#777;
+}
+button.search-results-pagination:hover{
+    border:1px solid black;
+    background:#999;
+}

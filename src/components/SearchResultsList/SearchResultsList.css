@@ -1,0 +1,28 @@
+.search-results-wrapper ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.search-results-wrapper li{
+    padding:10px 0 10px 10px;
+}
+
+.search-results-wrapper li:nth-child(odd){
+    background:#ccc;
+}
+
+.pagination-wrapper ul{
+    margin:0;
+    padding:10px;
+    display:flex;
+    justify-content: flex-end;
+}
+.pagination-wrapper ul li{
+    list-style:none;
+    margin:0 5px 0 0;
+    align-self: center;
+}
+
+.pagination-wrapper ul li.hide{
+    display: none;
+}
